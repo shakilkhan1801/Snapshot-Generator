@@ -1,4 +1,4 @@
-# Contributing to Automated Code Snapshot Generator
+# Contributing to Snapshot Generator
 
 Thank you for your interest in contributing to this project! This document provides guidelines and instructions for contributing.
 

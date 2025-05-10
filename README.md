@@ -1,7 +1,8 @@
-# Automated Code Snapshot Generator
+# Snapshot Generator
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![npm version](https://img.shields.io/npm/v/snapshot-generator.svg)](https://www.npmjs.com/package/snapshot-generator)
 
 This **Node.js-based Code Snapshot Generator** allows developers to create **automated snapshots** of multiple code files in a structured **Markdown format**. It supports **JavaScript, Python, Solidity, TypeScript, Rust, C++, HTML, CSS**, and many more languages by automatically detecting file extensions and applying the correct **syntax highlighting**.  
 
@@ -14,13 +15,23 @@ This **Node.js-based Code Snapshot Generator** allows developers to create **aut
 ## 📦 Installation
 
 ```bash
-npm install automated-code-snapshot-generator
+# Install globally
+npm install -g snapshot-generator
+
+# Or install as a project dependency
+npm install snapshot-generator
 ```
 
 ## 🚀 Usage
 
+### As a CLI tool (if installed globally):
+```bash
+snapshot-generator
+```
+
+### As a module in your code:
 ```javascript
-const { generateSnapshot } = require('automated-code-snapshot-generator');
+const { generateSnapshot } = require('snapshot-generator');
 
 // Define files to snapshot
 const files = ['app.js', 'bot.js', 'index.js'];
