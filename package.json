@@ -1,0 +1,30 @@
+{
+  "name": "automated-code-snapshot-generator",
+  "version": "1.0.0",
+  "description": "A Node.js tool to create automated snapshots of code files in Markdown format",
+  "main": "generateSnapshot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "code-snapshot",
+    "documentation",
+    "markdown",
+    "code-tracking",
+    "developer-tools"
+  ],
+  "author": "shakilkhan1801",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shakilkhan1801/Snapshot-Generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shakilkhan1801/Snapshot-Generator/issues"
+  },
+  "homepage": "https://github.com/shakilkhan1801/Snapshot-Generator#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "path": "^0.12.7"
+  }
+} 
